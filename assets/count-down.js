@@ -7,7 +7,7 @@ for (i = 10; i > -1; i--){
     output.appendChild(para);
       
  if (i === 10){
-        para.textContent = "count down 10" ;
+        para.textContent = `count downm ${[i]}`;
     
  }
  else if(i === 0){
