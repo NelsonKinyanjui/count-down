@@ -2,7 +2,7 @@
 const output = document.querySelector('.output')
 output.innerHTML = '';
 
-for (i = 10; i > 0; i--){
+for (i = 10; i > -1; i--){
     const para = document.createElement('p');
     output.appendChild(para);
       
